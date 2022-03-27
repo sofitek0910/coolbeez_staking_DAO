@@ -213,8 +213,7 @@ export default function StakePage() {
     }
   }
 
-  return (
-    <>    
+  return ( 
     <DefaultPageTemplate bgGray> 
       <S.FilterDiv>        
         <S.Filter>
