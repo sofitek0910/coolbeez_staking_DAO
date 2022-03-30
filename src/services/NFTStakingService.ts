@@ -7,6 +7,7 @@ import { initializeWeb3 } from './MultiWalletService'
 import {collectionAddress, factoryAddress} from '../config'
 import { getErc721Metadata } from './UtilService'
 
+
 export const getNFTIds = async (chainId: number, ownerAddress: string, node: boolean) => {
     const web3 = initializeWeb3(chainId, node)
     const contractMinter = new web3.eth.Contract(collectionAbi as AbiItem[], collectionAddress)    
