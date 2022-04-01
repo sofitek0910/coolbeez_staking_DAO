@@ -252,6 +252,7 @@ export default function StakePage() {
   )
 }
 
+
 export const S = {
   Select: styled.div`
     margin-top: 20px;
