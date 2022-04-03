@@ -47,7 +47,7 @@ export const getNFTs = async (node: boolean, chainId: number, ownerAddr: string,
             }
         }        
 
-        //---staked nfts-------------------------------------------------------------
+        //---staked nfts------------------------------------------------
         const contractFactory = new web3.eth.Contract(factoryAbi as AbiItem[], factoryAddress);
         let isExistPool = await contractFactory.methods.getTotalStakingContracts().call();
         if(isExistPool < 1) return erc721ItemsMetadata;
