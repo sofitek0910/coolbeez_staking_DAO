@@ -102,7 +102,6 @@ export const stakeToken = async (chainId: number, ownerAddress: string, mintedTo
     } catch(e) {
         console.log(e)
     }
-
     return 0;
 }
 
