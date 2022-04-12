@@ -5,7 +5,7 @@ import { useHistory } from 'react-router-dom'
 import styled from 'styled-components'
 import { colors } from '../styles/variables'
 import { DefaultPageTemplate } from './shared/templates/DefaultPageTemplate'
-import { validate, numValidate } from '../services/ValidationService';
+import { validate, numValidate } from '../services/ValidationService'
 import {createPool, isExistPool, removePool} from '../services/CreatePoolService'
 import { accountVar, chainIdVar, walletVar } from '../variables/WalletVariable'
 import {createPoolOwner} from '../config'
